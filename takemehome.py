@@ -39,6 +39,6 @@ def sing_song():
     for thread in threads:
         thread.join()
 
-if __name__ == "_main_":
+if __name__ == "__main__":
     sing_song()
 
